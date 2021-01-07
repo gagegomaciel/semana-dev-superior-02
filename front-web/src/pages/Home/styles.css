@@ -1,6 +1,6 @@
 .home-container {
   padding-top: 100px;
-  height: calc(100vh - 254px);
+  height: calc(100vh - 151px);
 }
 
 .home-container h1 {
@@ -16,7 +16,7 @@
 }
 
 .home-actions {
-  width: 460px;
+  width: 470px;
 }
 
 .home-title {
@@ -41,23 +41,23 @@
   background-color: var(--primary-color);
   border-radius: 10px;
   height: 70px;
-  width: 235px;
+  width: 100%;
   display: inline-block;
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 26px;
   letter-spacing: -0.015em;
   color: #FFF;
+  transition: 0.3s;
 }
 
 .home-btn-order:hover {
   background-color: var(--primary-hover-color);
-  transform: scale(1.01);
 }
 
-..home-image {
+.home-image {
   margin-left: 20px;
 }
 
