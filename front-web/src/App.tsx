@@ -1,7 +1,8 @@
 import React from 'react';
 
 import NavBar from './Components/NavBar';
-import Home from './pages/Home';
+
+import Routes from './Routes';
 
 import './GlobalStyles/main.css';
 
@@ -9,7 +10,7 @@ function App() {
   return (
     <>
       <NavBar />
-      <Home />
+      <Routes />
     </>
   );
 }

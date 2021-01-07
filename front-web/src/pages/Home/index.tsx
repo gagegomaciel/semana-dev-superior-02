@@ -18,7 +18,7 @@ function Home() {
             <h3 className="home-subtitle">
               Escolha o seu pedido e em poucos minutos levaremos na sua porta
             </h3>
-            <a href="/" className="home-btn-order">Fazer Pedido</a>
+            <a href="/orders" className="home-btn-order">Fazer Pedido</a>
           </div>
           <div className="home-image">
             <img src={backgroundImg} alt=""/>
